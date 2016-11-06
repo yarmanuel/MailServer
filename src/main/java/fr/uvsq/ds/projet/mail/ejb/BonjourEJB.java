@@ -5,7 +5,7 @@
 package fr.uvsq.ds.projet.mail.ejb;
 
 import javax.ejb.Stateless;
-import javax.ejb.LocalBean;
+// javax.ejb.LocalBean;
 
 /**
  *
@@ -16,7 +16,7 @@ public class BonjourEJB implements Bonjour{
 
     @Override
     public String bonjour() {
-       return "Hello World !!!";
+       return "Hello World !!!!";
     }
 
 }
